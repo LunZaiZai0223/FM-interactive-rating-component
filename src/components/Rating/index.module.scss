@@ -1,0 +1,33 @@
+@use '../../styles/colors.scss';
+
+.content {
+  line-height: 25px;
+  margin: 16px 0;
+  font-size: 16px;
+  color: colors.$light-grey;
+}
+
+.rating-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.submit-button {
+  background-color: colors.$primary;
+  width: 100%;
+  border-radius: 16px;
+  border: none;
+  padding: 16px;
+  color: colors.$white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-top: 25px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: colors.$white;
+    color: colors.$primary;
+  }
+}

@@ -1,0 +1,30 @@
+@use '../../styles/colors.scss';
+
+.circle {
+  background-color: colors.$medium-grey;
+  color: colors.$light-grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.circle-wrapper {
+  margin-bottom: 26px;
+}
+
+.is-select {
+  color: colors.$white;
+  background-color: colors.$light-grey;
+}
+
+.should-hover {
+  cursor: pointer;
+  &:hover {
+    background-color: colors.$primary;
+    color: colors.$white;
+  }
+}

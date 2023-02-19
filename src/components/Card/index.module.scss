@@ -1,0 +1,16 @@
+@use '../../styles/colors.scss';
+@use '../../styles/breakpoints.scss';
+
+.card {
+  width: 400px;
+  background-color: colors.$dark-blue;
+  padding: 35px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: breakpoints.$mobile) {
+  .card {
+    width: 90%;
+    padding: 20px;
+  }
+}
